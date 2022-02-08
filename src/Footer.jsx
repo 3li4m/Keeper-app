@@ -5,9 +5,9 @@ let year = date.getFullYear();
 
 function Footer(){
     return (
-        <div className="footer">
+        <footer>
             <p>Copyright © CenoDigital {year}</p>
-        </div>
+        </footer>
     );
 }
 
